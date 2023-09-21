@@ -1,7 +1,7 @@
 #include "myshell.h"
 
 /**
- * cncat_str - concatenates two strings.
+ * cncat_str - two strings will be concatenated.
  * @destination: pointer to the destination string.
  * @source: pointer to the source string.
  * Return: pointer to the concatenated string.
@@ -29,7 +29,7 @@ char *cncat_str(char *destination, char *source)
 }
 
 /**
- * cmp_str - compare two string.
+ * cmp_str - two string will be compared.
  * @str1: First input string
  * @str2: Second input string
  *

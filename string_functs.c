@@ -1,7 +1,7 @@
 #include "myshell.h"
 
 /**
- * my_putchar - writes a character to stdout
+ * my_putchar - This fun writes a character to stdout
  * @character: The character to be printed
  *
  * Return: OOn success, it returns 1.
@@ -15,7 +15,7 @@ int my_putchar(char character)
 }
 
 /**
- * str_puts - prints a string followed by a newline character.
+ * str_puts - prints a string followed by a newline chaxr.
  * @string: input string to be printed.
  * Return: no return.
  */

@@ -30,7 +30,7 @@ void trim_spaces(char *string)
 }
 
 /**
- * contains_forward_slash - check if a string contains a forward slash.
+ * contains_forward_slash - forward slash is checked in the string.
  * @string: the input string.
  * Return: 0 if success
  */
@@ -78,7 +78,7 @@ char **split_str(char *input)
 
 /**
  * find_path - get the path to a command executable.
- * @cmd: the command to find in the PATH.
+ * @cmd: this is the command to find in the PATH.
  * Return: pointer (output: command program path)
  */
 char *find_path(char *cmd)

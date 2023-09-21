@@ -7,17 +7,18 @@
  * Return: to the copied string
  */
 char *cpy_str(char *destination, char *source)
-{
-        int x = 0, y = 0;
 
-        while (*(source + x) != '\0')
-        {
-                x++;
-        }
-        for ( ; y < x ; y++)
-        {
-                destination[y] = source[y];
-        }
-        destination[x] = '\0';
-        return (destination);
+{
+	int x = 0, y = 0;
+
+	while (*(source + x) != '\0')
+	{
+		x++;
+	}
+	for ( ; y < x ; y++)
+	{
+		destination[y] = source[y];
+	}
+	destination[x] = '\0';
+	return (destination);
 }

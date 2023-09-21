@@ -8,8 +8,10 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int my_putchar(char character)
+
 {
-        return (write(1, &character, 1));
+
+	return (write(1, &character, 1));
 }
 
 /**
@@ -18,17 +20,19 @@ int my_putchar(char character)
  * Return: no return.
  */
 void str_puts(char *string)
-{
-        int i = 0;
 
-        while (i >= 0)
-        {
-                if (string[i] == '\0')
-                {
-                        my_putchar('\n');
-                        break;
-                }
-                my_putchar(string[i]);
-                i++;
-        }
+{
+	int i = 0;
+
+	while (i >= 0)
+
+	{
+		if (string[i] == '\0')
+		{
+			my_putchar('\n');
+			break;
+		}
+		my_putchar(string[i]);
+		i++;
+	}
 }
